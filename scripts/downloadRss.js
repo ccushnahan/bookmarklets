@@ -1,0 +1,1 @@
+javascript: (function () {  [...document.querySelectorAll("enclosure")].map((en) => en.attributes.url.nodeValue).forEach((n, i) => {var a = document.createElement("a");a.href = n; a.setAttribute("download", i + ".mp3"); a.dispatchEvent(new MouseEvent("click"));});})();

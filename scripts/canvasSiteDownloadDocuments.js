@@ -1,0 +1,1 @@
+javascript: (function () {[...document.querySelectorAll("a")].filter((x) => x.href.includes("file") && x.href.includes("download?download")).forEach((link) => link.dispatchEvent(new MouseEvent("click")));})();
